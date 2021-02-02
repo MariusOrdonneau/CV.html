@@ -1,0 +1,52 @@
+body {
+    background-image: url("Img/background_CV.jpg");
+    background-size: cover;
+}
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("Police-ecriture/SourceSansPro-Regular.ttf") format("truetype");
+}
+p, span, strong, li, h1, h2, h3 ,a{
+    font-family: "SourceSansPro";
+}
+
+strong, span {
+    color: #1f76a3;
+}
+.LEFT {
+    margin-right: 30em;
+    width: 25em;
+}
+
+.RIGHT {
+    margin-right: 2em;
+    width: 25em;
+}
+
+.TEXTE {
+    display:flex;
+    justify-content: flex-end;
+}
+.CHAPEAU {
+    margin: 0 auto;
+    width: 21em;
+}
+.img-Linkedin {
+    width: 5em;
+    height: 5em;
+    margin-left: -1em;
+}
+.Linkedin {
+    margin: 0 auto;
+    width: 22em;
+    margin-top: 5em;
+}
+.img-cv {
+    margin-left: 3em;
+}
+a span {
+    font-size: 2em;
+    margin-left: 0.5em; 
+    position: relative;
+    bottom: 0.5em;
+}
